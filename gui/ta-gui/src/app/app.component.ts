@@ -20,7 +20,8 @@ export class AppComponent {
        this.alunos.push(a);
        this.aluno = {nome: "", cpf: "", email: ""};
      } else {
-       this.cpfduplicado = true;
+       this.aluno.cpf = "";
+       alert("Já existe um aluno com esse CPF");
      }
   }
   onMove(): void {
