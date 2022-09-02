@@ -10,7 +10,6 @@ import { AlunoService } from './aluno.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-
    aluno: Aluno = {nome: "", cpf: "", email: ""};
    alunoService = new AlunoService();
    alunos: Aluno[] = [];
