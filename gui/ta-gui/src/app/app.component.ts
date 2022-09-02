@@ -20,7 +20,7 @@ export class AppComponent {
        this.alunos.push(a);
        this.aluno = {nome: "", cpf: "", email: ""};
      } else {
-       this.cpfduplicado = true;
+      this.cpfduplicado = true;
      }
   }
   onMove(): void {
